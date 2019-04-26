@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "Deck created with mdx-deck",
+  "scripts": {
+    "assets": "node render.js",
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.6.7"
+  },
+  "name": "terraform-intro",
+  "dependencies": {
+    "mdx-deck-code-surfer": "^0.5.3",
+    "node-plantuml": "^0.7.0",
+    "raw-loader": "^0.5.1"
+  }
+}
