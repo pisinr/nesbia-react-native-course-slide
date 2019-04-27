@@ -116,6 +116,15 @@ expo init MyApp
 
 ---
 
+## React: Dynamic Content
+
+```
+  <Text>{1 + 2}</Text>
+  <Text>{new Date().toString()}</Text>
+```
+
+---
+
 # Basic View Props
 
 ```
@@ -136,17 +145,48 @@ expo init MyApp
 
 # ScrollView and List
 
----
+--
 
 # Button: Handle Click Event
 
 ---
 
-# Text: Handle Text Input
+## React: State
+
+```
+  constructor() {
+    this.state = {
+      a: 1,
+      b: 2,
+    }
+  }
+```
 
 ---
 
-# Sample: Web Browser
+## React: setState
+
+```
+
+  increment() {
+    this.setState({
+      a: this.state.a + 1
+    })
+  }
+```
+
+---
+
+## React: Conditional Rendering
+
+```
+  {false && <Text>Never shown</Text>}
+
+```
+
+---
+
+# Text: Handle Text Input
 
 ---
 
